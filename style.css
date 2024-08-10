@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.header-section{
+    background: url("images/page-heading-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 12vh;
+    /* border-bottom-left-radius: 3.2rem;
+    border-bottom-right-radius: 3.2rem; */
+}
+
+.logo img{
+    width: 80%;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.2rem 9.2rem;
+}
+
+.head-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2.5rem;
+    font-size:1.4rem;
+}
+
+.head-list a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.2rem;
+    transition: all 0.3s;
+    letter-spacing: 1.6;
+}
+
+.head-list .detail-list a:hover{
+    background-color: #228be6;
+    border-radius: 2.4rem;
+}
+
+.detail-list-home{
+    background-color: #3080e2;
+    padding: 1rem;
+    border-radius: 2.4rem;
+}
+
+.detail-list-sign{
+    background-color: #fa5252;
+    padding: 1rem;
+    border-radius:2.4rem;
+} 
+
+.section-1{
+   background: url(images/banner-bg.jpg);
+   height: 100vh;
+}
+
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9.2rem;
+    padding:12.4rem 7.2rem;
+    color: #fff;
+}
+
+.heading-lugx{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.4;
+}
+
+.lugx-gaming{
+    font-size: 4.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.dec-banner{
+    margin-left: 12.4rem;
+    margin-bottom: 4.4rem;
+}
+
+.section-text{
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.container-2 img{
+    border-radius: 2.4rem;
+    height: 65vh;
+}
