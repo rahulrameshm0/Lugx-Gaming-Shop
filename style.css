@@ -100,9 +100,51 @@ body{
 .section-text{
     font-size: 1.4rem;
     line-height: 2;
+    margin-bottom: 4.4rem;
 }
 
 .container-2 img{
     border-radius: 2.4rem;
-    height: 65vh;
+    height: 60vh;
 }
+
+.form{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+
+input{
+    height: 7.5vh;
+    width:50vh;
+    border-radius: 2.8rem;
+    outline: none;
+    border:none;
+}
+
+input::placeholder{ 
+    color: #bab4b4;
+    font-size: 1.4rem;
+    /* padding-left:2rem; */
+}
+
+input[type = "text"]{
+    font-size:1.4rem;
+    color: #bab4b4;
+    margin-left: 2.4rem;
+    padding-left:2.4rem;
+}
+
+button{
+    color: #ffffff;
+    background-color: #dd6161;
+    padding: 1.8rem 3.4rem;
+    position: relative;
+    right: 5rem;    
+    border-radius: 2.8rem;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
