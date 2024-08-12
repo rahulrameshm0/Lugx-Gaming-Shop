@@ -211,7 +211,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5.4rem 6.4rem 5.4rem 6.4rem;
+    padding: 6.4rem 8.4rem 6.4rem 8.4rem;
 }
 
 .trending{
@@ -227,7 +227,7 @@ button{
     text-transform: uppercase;
 }
 
-.section-3 a{
+.view-all a{
     text-decoration: none;
     background-color: #dd6161;
     padding: 1.4rem 2.8rem;
@@ -239,9 +239,104 @@ button{
     transition: all 0.3s;
 }
 
-.section-3 a:hover{
-    background-color: #1d82ff;
+.games-catogary{
+    background-color: #f2f2f2;
+    padding:0 0 1.2rem 0;
+    border-radius: 2.4rem;
+}
 
+.view-all a:hover{
+    background-color: #1d82ff;
+}
+
+.games{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 2.2rem; 
+}
+
+figure img{
+    border-radius: 2.4rem;
+    width: 20vw;
+    height: auto;
+}
+
+.price-tag{
+    position: absolute;
+}
+
+.current-price{
+    position: relative;
+    bottom: 17rem;
+    left: 18rem;
+    background-color: #1d82ff;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+.new-price{
+    position: relative;
+    bottom: 17rem;
+    left: 18rem;
+    background-color: #1d82ff;
+    color: #fff;
+    padding: 0.5rem 1.6rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+
+.new-price span{
+    text-decoration:line-through;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-left: 0.6rem;
+}
+
+
+.shop-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #fff;
+    background-color: #dd6161;
+    border-radius: 100%;
+    padding: 0.8rem;
+    transition: all 0.3s;
+}
+
+.action-games{
+    padding-left:2.4rem;
+    font-size: 1.5rem;
+    color: #848383;
+    margin-top: 3rem;
+    line-height: 0;
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.4rem;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.shop:hover{
+    color: #1d82ff;
+}
+
+.shop-icon:hover{
+    background-color: #1d82ff;
+}
+    
+
+.assasin-creed{
+   font-size: 1.6rem;
+   font-weight: 600;
 }
 
 
