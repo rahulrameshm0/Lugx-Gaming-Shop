@@ -17,13 +17,15 @@ body{
 ********************/
 
 .header-section{
-    background: url("images/page-heading-bg.jpg");
-    background-repeat: no-repeat;
+    background: url(images/page-heading-bg.jpg);
     background-size: cover;
-    background-attachment: fixed;
     height: 12vh;
-    /* border-bottom-left-radius: 3.2rem;
-    border-bottom-right-radius: 3.2rem; */
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    z-index: 1;
+    border-bottom-left-radius: 3.2rem;
+    border-bottom-right-radius: 3.2rem;
 }
 
 .logo img{
@@ -65,7 +67,7 @@ body{
 }
 
 .detail-list-sign{
-    background-color: #fa5252;
+    background-color: #dd6161;
     padding: 1rem;
     border-radius:2.4rem;
 } 
@@ -77,10 +79,11 @@ body{
 
 .section-1{
    background: url(images/banner-bg.jpg);
-   height: 110vh;
+   height: 120vh;
    border-bottom-left-radius: 14.6rem;
    border-bottom-right-radius: 14.6rem;
-}
+}   
+   
 
 .section-1{
     display: flex;
@@ -93,6 +96,7 @@ body{
 
 .container{
     margin-bottom: 14.4rem;
+    margin-top: 10%;
 }
 
 .heading-lugx{
@@ -123,6 +127,33 @@ body{
     border-radius: 2.4rem;
     height: 60vh;
     margin-bottom: 14.4rem;
+    margin-top: 20%;
+}
+
+.container-2{
+    position: relative;
+}
+
+.discount-sail{
+    position: absolute;
+    top: 67%;
+    right: 79%;
+    background-color: #dd6161;
+    padding: 2.8rem 1.5rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border-radius: 100%;
+}
+.amount{
+    position:absolute;
+    top:14%;
+    left: 75%;
+    background-color: #1d82ff;
+    padding: 0.6rem 1.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius:2.4rem;
+
 }
 
 .form{
@@ -162,11 +193,16 @@ button{
     text-transform: uppercase;
     outline: none;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+}
+
+button:hover{
+    background-color: #1e7bed;
 }
 
 /* ************************* 
-    SECTION-3
+    SECTION-2
 *****************************/
 
 .feature-list{
@@ -506,7 +542,8 @@ figure img{
     display: flex;
     justify-content: space-between;
     gap: 4.2rem;
-    /* padding: 0 0 6.4rem 0; */
+    padding: 0 0 6.4rem 0;
+    position: relative;
 }
 
 
@@ -515,17 +552,18 @@ figure img{
     padding: 6.4rem 0;
     padding-left: 3.4rem;
     border-radius:2.4rem ;
-    position: relative;
-    bottom: 44rem;
+    position: absolute;
+    bottom: -2.5rem;
 }
 
 .news-letter{
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; 
     padding-left: 3.4rem;
     border-radius:2.4rem;
-    padding: 6.4rem 4.4rem;
-    position: relative;
-    bottom: 30rem;
+    padding:6.4rem 4.4rem;
+    position: absolute;
+    bottom: -3rem;
+    left: 64rem;
 }
 
 .cta-shop{
@@ -574,7 +612,7 @@ strong{
 
 .email-address input{
     margin-top: 4.4rem;
-    width: 50%;
+    width: 60%;
     height:7vh;
 }
 
@@ -596,7 +634,7 @@ strong{
     text-decoration: none;
     background-color: #dd6161;
     position:absolute;
-    top: 60.4%;
+    top: 73.4%;
     right: 20%;
     padding: 1.2rem 1.8rem;
     border-radius: 4.4rem;
@@ -608,4 +646,30 @@ strong{
 
 .email-address a:hover{
     background-color: #1e7bed;
+}
+
+.footer-section{
+    background: url(images/footer-bg.jpg);
+    height: 20vh;
+    margin-top: 12.4rem;
+    border-top-left-radius:12.6rem ;
+    border-top-right-radius:12.6rem;
+}   
+
+.copy-right{
+    text-align: center;
+    padding-top: 3.4rem;
+    color: #f2eeee;
+    font-size: 1.6rem;
+    letter-spacing: 2.4;
+}
+
+.copy-right a{
+    color: #f2eeee;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.copy-right a:hover{
+    color: #dcdbdb;
 }
