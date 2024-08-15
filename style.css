@@ -402,7 +402,7 @@ figure img{
 }
 
 .trending-games{
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: space-between;
 }
@@ -464,8 +464,8 @@ figure img{
 
 .explore{
     position: absolute;
-    bottom: -15px;
-    left: 38px;
+    bottom: -1.5rem;
+    left: 3.8rem;
     color: #fff;
     text-decoration: none;
     background-color: #dd6161;
@@ -623,6 +623,21 @@ strong{
     transition: all 0.3s;
 }
 
+form a{
+    color:#fff;
+    background-color: #dd6161;
+    position:absolute;
+    top: 76.2%;
+    right: 22%; 
+    padding: 1.2rem 1.6rem;
+    border-radius: 4.4rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
 .email-address input::placeholder{ 
     color: #bab4b4;
     font-size: 1.4rem;
@@ -640,21 +655,6 @@ form:focus{
     border: 5px solid rgb(158, 181, 241);
 }
 
-form a{
-    display: inline-block;
-    color:#fff;
-    background-color: #dd6161;
-    position:absolute;
-    top: 76.2%;
-    right: 22%; 
-    padding: 1.2rem 1.6rem;
-    border-radius: 4.4rem;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    transition: all 0.3s;
-    margin-bottom: 0;
-    text-decoration: none;
-}
 
 .email-address a:hover{
     background-color: #1e7bed;

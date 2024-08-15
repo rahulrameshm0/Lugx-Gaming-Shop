@@ -115,7 +115,6 @@
 
  @media(max-width:62em){
     .section-1{
-        background: url(images/banner-bg.jpg);
         height: 160vh;
         width: 100%;
      }   
@@ -403,4 +402,68 @@ figure img{
 }
 
 }
- /* 544/16 = 34  bellow 544px (Phone) */
+ /* 534/16 = 34  bellow 544px (Phone) */
+
+@media(max-width:34em){
+    .header-section{
+        height: auto;
+    }
+
+    .lugx-gaming{
+        font-size: 3.8rem;
+    }
+
+    .section-text{
+        font-size: 1.2rem;
+    }
+
+    .btn{
+        padding: 1rem 3.4rem;
+        left: 2rem;    
+    }
+
+    .container-3{
+        flex-direction: column;
+        gap:0; 
+    }
+
+    .view-all a{
+        display: none;
+    }
+
+    .trending{
+        text-align: center;
+    }
+
+    .current-price{
+        bottom: 76%;
+        left: 74%;
+        padding: 0.6rem 1.2rem;
+        font-size: 1.6rem;
+    }
+    
+    .new-price{
+        bottom: 69%;
+        left: 72%;
+        padding: 0.5rem 1.6rem;
+        font-size: 1.6rem;
+    }
+
+    .trending-games{
+       flex-direction: column;
+    }
+
+    .trending-games a{
+        display: none;
+    }
+
+    .explore{
+        left: 25%;
+    }
+    form .email-address{
+        display: none;
+    }
+    .news-letter{
+       padding-bottom: 2.4rem;
+    }
+}
