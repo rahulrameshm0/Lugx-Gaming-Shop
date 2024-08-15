@@ -1,3 +1,45 @@
+/*1334px / 16 = 84 (smaller laptops) */
+
+@media(max-width:84em){
+    .our-shop{
+        display: flex;
+        flex-direction:column;
+        position: relative; 
+        margin-top: 6.6rem;
+    }
+    
+    
+    .item-ordering{
+        position:relative;
+        bottom: 0;
+    }
+    
+    .news-letter{
+        position:relative;
+        bottom: -2rem;
+        left: 0;
+    }
+
+    .cta-img img{
+        width:50%;
+        height: auto;   
+    }
+
+    .email-address input{
+        margin-top: 4.4rem;
+        width: 40%;
+        height:7vh;
+        transition: all 0.3s;
+    }
+
+    .email-address a{
+    position:relative;
+    top: 74.2%;
+    right: 12%; 
+    }
+    
+    
+}
 
 
 /* BELOW: 1200px / 16 px = 75em (landscape tablets)  */
@@ -14,16 +56,11 @@
         position: absolute;
         top: 64%;
         right: 82%;
-        background-color: #dd6161;
         padding: 2.8rem 1.5rem;
         font-size: 2.4rem;
-        font-weight: 700;
-        border-radius: 100%;
     }
 
     form button{
-        color:#fff;
-        background-color: #dd6161;
         position:absolute;
         top: 79.8%;
         right: 14%;
@@ -74,7 +111,7 @@
 
 }
 
- /* BELOW: 944px / 16 px = 59em (tablets) */
+ /* BELOW: 992px / 16 px = 59em (tablets) */
 
  @media(max-width:62em){
     .section-1{
@@ -242,12 +279,12 @@
         height: 0;
     }
 
-    form a{
+     .email-address a{
         position:absolute;
-        top: 60%;
-        padding: 1rem 1.6rem;
-        top: 56.2%;
-        right: 22%;
+        top: 65%;
+        padding: 1.4rem 1.6rem;
+        top: 55%;
+        right: 20%;
     }
 
     .email-address input{
