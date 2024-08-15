@@ -1,0 +1,265 @@
+
+
+/* BELOW: 1200px / 16 px = 75em (landscape tablets)  */
+
+@media(max-width:75em){
+    button{
+        padding: 1.6rem 3.4rem;
+        position: relative;
+        right: 10rem;    
+        font-size: 1.2rem;
+    }
+
+    .discount-sail{
+        position: absolute;
+        top: 64%;
+        right: 82%;
+        background-color: #dd6161;
+        padding: 2.8rem 1.5rem;
+        font-size: 2.4rem;
+        font-weight: 700;
+        border-radius: 100%;
+    }
+
+    form button{
+        color:#fff;
+        background-color: #dd6161;
+        position:absolute;
+        top: 79.8%;
+        right: 14%;
+        padding: 0.8rem 1.6rem;
+        border-radius: 4.4rem;
+    }
+
+    .cta-img img{
+        margin-top: 12.2rem;
+        width:100%;
+        height: 100%;
+        border-radius:2.4rem;
+    }
+
+    .our-shop{
+        display: flex;
+        flex-direction: column;
+        margin-top: 9.4rem;
+    }
+
+    .item-ordering{
+        margin-bottom: 2.4rem;
+        position: relative;
+    }
+    
+    .news-letter{   
+        bottom: 0;
+        position: relative;
+        left: 0;
+    }
+
+    .email-address a{
+        position:relative;
+        top: 45.2%;
+        right: 16%; 
+        padding: 1.2rem 1.6rem;
+        border-radius: 4.4rem;
+        font-size: 1.6rem;
+    }
+
+    .email-address input{
+        margin-top: 4.4rem;
+        width: 50%;
+        height:7vh;
+        transition: all 0.3s;
+    }
+    
+
+}
+
+ /* BELOW: 944px / 16 px = 59em (tablets) */
+
+ @media(max-width:62em){
+    .section-1{
+        background: url(images/banner-bg.jpg);
+        height: 160vh;
+        width: 100%;
+     }   
+     .section-1{
+        display: flex;
+        flex-direction: column;
+        gap: 9.2rem;
+        padding:1.4rem 7.2rem;
+        color: #fff;
+        margin-bottom: 6.6rem;
+    }
+
+    .header-section{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .btn{
+        color: #ffffff;
+        padding: 1.4rem 3.4rem;
+        position:relative;
+        right: 5rem;
+    }
+
+    .container{
+        text-align: center;
+        margin-bottom: 5.4rem;
+        margin-top: 10%;    
+    }
+    .dec-banner{
+        margin-left: 2.6rem;
+    }
+
+    input{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        position: relative;
+     }
+    
+     button{
+        padding: 2.1rem 3.4rem;
+        position: relative;
+        right: 1.2rem;      
+        font-size: 1.6rem;
+
+    }
+    .container-2{
+        position: relative;
+        bottom: 15%;
+        height: 100vh;
+    }
+
+    .container-2 img{
+        /* position: absolute; */
+        border-radius: 2.4rem;
+        height: 50%;
+
+    }
+
+    .discount-sail{
+        position: absolute;
+        top: 52%;
+        right: 85%;
+        padding: 1.8rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .amount{
+        position:absolute;  
+        top:12%;
+        left: 70%;
+        padding: 0.2rem 1.8rem;
+    }   
+
+    .feature-list{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .feature-list-items{
+        background-color: #ffffff;
+        padding: 3.4rem 5.4rem 2.4rem 5.4rem;
+        margin: 1.2rem;
+        margin-bottom: 6.4rem;
+        bottom: 0;
+        box-shadow: 0 0 0.4rem rgb(0,0,0,0.3);
+     }
+
+     .container-3{
+        padding: 6.4rem 8.4rem 6.4rem 8.4rem;
+    }
+
+     .games{
+        /* display: flex;
+        flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-area: 0;
+        place-items: center;
+        margin-left: 25rem;
+        margin-right: 25rem;
+    }
+
+    .current-price{
+        position: absolute;
+        bottom: 76%;
+        left: 70%;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    
+    .new-price{
+        position: absolute;
+        bottom: 66%;
+        left: 60%;
+    }
+
+    .most-played-img{
+        /* display:flex; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 2.8rem;
+    }
+
+    .explore{
+        position: absolute;
+        bottom: -1.5rem;
+        left: 32.5%;
+    }
+    .our-shop{
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        gap: 4.2rem;
+        padding: 0 0 6.4rem 0;
+    }
+
+    .news-letter{
+        position: relative;
+        left: 0;
+        padding-bottom: 18.4rem;
+    }
+
+    .item-ordering{
+        position: relative;
+    }
+
+    .cta-img img{
+        width:0;    
+        height: 0;
+    }
+
+    form a{
+        position:absolute;
+        top: 60%;
+        padding: 1rem 1.6rem;
+        top: 56.2%;
+        right: 22%;
+    }
+
+    .email-address input{
+        margin-top: 4.4rem;
+        width: 50%;
+        height:7vh;
+        transition: all 0.3s;
+    }   
+}
+    
+ 
+
+/* BELOW: 704px / 16 px = 44em (smaller tablets) */
+
+ /* 544/16 = 34  bellow 544px (Phone) */
