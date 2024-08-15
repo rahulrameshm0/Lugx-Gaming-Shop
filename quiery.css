@@ -52,6 +52,10 @@
         font-size: 1.2rem;
     }
 
+    .header-section{
+        height:auto;
+    }
+
     .discount-sail{
         position: absolute;
         top: 64%;
@@ -466,4 +470,55 @@ figure img{
     .news-letter{
        padding-bottom: 2.4rem;
     }
+    /* 534/16 = 34  bellow 544px (Phone) */
 }
+
+@media(max-width:24em){
+    .section-1{
+        padding: 0;
+     }   
+
+    .lugx-gaming{
+        font-size: 3.6rem;
+    }
+
+    .section-text{
+        font-size: 1.6rem;
+    }
+
+    .form{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+
+    input{
+        height: 7.5vh;
+        width:45vh;
+        border-radius: 2.8rem;
+        outline: none;
+        border:none;
+    }
+
+    .btn{
+        top:5rem; 
+        padding: 1rem 6.5rem;
+    }
+    
+    .container-2 img{
+        height: 60vh;
+        margin-top: 30%;
+    }
+
+    .discount-sail{
+        top: 60%;
+        right: 72%;
+    }
+    .amount{
+        top:18%;
+        left: 75%;
+    }
+    
+    }
+
+
+
