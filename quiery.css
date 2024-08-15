@@ -294,9 +294,113 @@
         transition: all 0.3s;
     }   
 }
+
+/* BELOW: 768px / 16px = 44em (smaller tablets) */
+@media(max-width:48em){
+
+    .header-section{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .nav-bar{
+        padding: 2.2rem 4.2rem;
+    }
     
- 
 
-/* BELOW: 704px / 16 px = 44em (smaller tablets) */
+    .menu-icon{
+        margin-top: 3.2rem;
+        color: #fff;
+        padding-right: 2.4rem;
+        padding-left: 1.8rem;
+        width: 3.4rem;
+        height: 3.4rem;
+        display:block;
+    }
 
+    .head-list{
+        justify-content: space-between;
+        display: none;
+    }   
+
+    .logo img{
+        width: 80%;
+        margin-bottom: 2.4rem;
+    }
+
+    .detail-list-sign{
+        padding: 0.8rem;
+    } 
+
+    .section-1{
+        height: 180vh;
+        border-bottom-left-radius: 6rem;
+        border-bottom-right-radius:6rem;
+     }   
+
+     .btn{
+        padding: 1.2rem 1.4rem;
+        right: 0;     
+    }
+
+    .amount{
+        top:11%;
+        left: 72%;
+        padding: 0.4rem 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    .discount-sail{
+        /* position: absolute; */
+        top: 50%;
+        right: 79%;
+        padding: 1.8rem 1rem;
+        font-size: 1.6rem;
+}    
+
+.games{
+    display: flex;
+    flex-direction: column; 
+}
+
+figure img{
+    width:50vw;
+}
+
+.current-price{
+    bottom: 82%;
+    left: 80%;  
+    padding:0.6rem 1.2rem;
+    font-size: 1.6rem;
+}
+
+.new-price{
+    bottom: 76%;
+    left: 82%;
+    padding:0.6rem 0.8em;
+    font-size: 1.6rem;
+}
+
+.section-4{
+    border-radius: 8.6rem;
+}
+
+.most-played-img{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-categorie-games{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+.email-address a{
+    padding: 0.8rem 1.6rem;
+    position:absolute;
+    top: 57.3%;
+    right: 20%;
+}
+
+}
  /* 544/16 = 34  bellow 544px (Phone) */
