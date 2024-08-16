@@ -470,18 +470,14 @@ figure img{
     .news-letter{
        padding-bottom: 2.4rem;
     }
-    /* 534/16 = 34  bellow 544px (Phone) */
+    /* 504/16 = 34  bellow 544px (Phone) */
 }
 
 @media(max-width:24em){
     .section-1{
         padding: 0;
-     }   
-
-     .section-1{
-       width: 100%;
-
-     }   
+        width: 100%;
+     }     
 
     .lugx-gaming{
         font-size: 3.6rem;
