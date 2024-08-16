@@ -473,10 +473,10 @@ figure img{
     /* 504/16 = 34  bellow 544px (Phone) */
 }
 
-@media(max-width:34em){
+@media(max-width:24em){
     .section-1{
         padding: 0;
-        
+        width: 100%;
      }     
 
     .lugx-gaming{
@@ -494,14 +494,15 @@ figure img{
 
     input{
         height: 7.5vh;
-        width:35vh;
-        border-radius: 2.8rem;
-        outline: none;
-        border:none;
+        width:50vh;
+        position: relative;
+        left:12rem;
     }
 
     .btn{
-        top:5rem; 
+        position: relative;
+        top:0; 
+        left: 0.8rem;
         padding: 1rem 6.5rem;
     }
     
@@ -530,13 +531,101 @@ figure img{
         grid-template-columns: 1fr;
         justify-content: center; 
     }
+
     figure img{
-        border-radius: 2.4rem;
-        width: 60vw;
-        height: auto;
+       width: 70vw;
+    } 
+
+    .games{
+       position: relative;
+       right: 16%;
+       margin-top: 2.4rem;
     }
 
     .trendings{
         text-align: center;
     }
+
+    .most-played-img{
+        display:grid;
+        grid-template-columns:1fr;
+    }
+    .explore{
+        left: 32%;
+    }
+
+    .section-5{
+        padding: 2.4rem 3.4rem;
+    }
+
+
+    .top-categorie-games{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    /* .item-ordering{
+        padding: 6.4 0;
+        padding-left: 3.4rem;
+        border-radius:2.4rem ;
+        position: absolute;
+        bottom: -2rem;
+    }
+    
+    .news-letter{
+        background-color: #f2f2f2; 
+        padding-left: 3.4rem;
+        border-radius:2.4rem;
+        padding:4rem 4.4rem;
+        position: absolute;
+        bottom: -2rem;
+        left: 64rem;
+    } */
+
+    .order-item{
+        padding: 0;
+    }
+
+    .shop-detail{
+        padding: 0;
+        margin-top: 4.4rem;
+        font-size: 1.4rem;
+    }
+
+    .section-4{
+        border-radius: 2.6rem;
+    }
+
+    .cta-shop{
+        padding:0;
+    }
+
+    form .email-address {
+        display: block;
+        position: relative;
+        top: 2rem;  
+    }
+
+    .email-address input{
+       position: relative;
+       width: 100%;
+       bottom:4rem;
+       left: 9rem;
+    }
+
+    .email-address a{
+        position:relative;
+        bottom:4rem;
+        left: 3.5rem; 
+    }
+    
+    .copy-right{
+        font-size: 1.2rem;
+    }
+
+    .footer-section{
+        border-top-left-radius:2.6rem ;
+        border-top-right-radius:2.6rem;
+    }   
+    
   }
