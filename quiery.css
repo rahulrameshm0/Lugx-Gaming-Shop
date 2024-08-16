@@ -478,6 +478,11 @@ figure img{
         padding: 0;
      }   
 
+     .section-1{
+       width: 100%;
+
+     }   
+
     .lugx-gaming{
         font-size: 3.6rem;
     }
@@ -493,7 +498,7 @@ figure img{
 
     input{
         height: 7.5vh;
-        width:45vh;
+        width:35vh;
         border-radius: 2.8rem;
         outline: none;
         border:none;
@@ -507,18 +512,38 @@ figure img{
     .container-2 img{
         height: 60vh;
         width: 80vw;
-        margin-top: 30%;
+        margin-top: 70%;
     }
 
     .discount-sail{
-        top: 60%;
+        top: 80%;
         right: 72%;
     }
+
     .amount{
-        top:18%;
+        top:35%;
         left: 75%;
     }
     
+    .container-3{
+        padding: 0;
+    }
+
+    .games{
+        display: grid; 
+        grid-template-columns: 1fr;
+        justify-content: center; 
+        /* padding: 0; */
+    }
+    figure img{
+        border-radius: 2.4rem;
+        width: 60vw;
+        height: auto;
+    }
+
+    .trendings{
+        text-align: center;
+    }
     }
 
 
