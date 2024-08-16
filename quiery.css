@@ -473,10 +473,10 @@ figure img{
     /* 504/16 = 34  bellow 544px (Phone) */
 }
 
-@media(max-width:24em){
+@media(max-width:34em){
     .section-1{
         padding: 0;
-        width: 100%;
+        
      }     
 
     .lugx-gaming{
@@ -529,7 +529,6 @@ figure img{
         display: grid; 
         grid-template-columns: 1fr;
         justify-content: center; 
-        /* padding: 0; */
     }
     figure img{
         border-radius: 2.4rem;
@@ -540,7 +539,4 @@ figure img{
     .trendings{
         text-align: center;
     }
-    }
-
-
-
+  }
