@@ -477,6 +477,8 @@ figure img{
     .section-1{
         padding: 0;
         width: 100%;
+        border-bottom-left-radius: 2.6rem;
+        border-bottom-right-radius: 2.6rem
      }     
 
     .lugx-gaming{
@@ -503,22 +505,22 @@ figure img{
         position: relative;
         top:0; 
         left: 0.8rem;
-        padding: 1rem 6.5rem;
+        padding: 0.8rem 8rem;
     }
     
     .container-2 img{
         height: 60vh;
-        width: 80vw;
-        margin-top: 70%;
+        width: 60vw;
+        margin-top: 0;
     }
 
     .discount-sail{
-        top: 80%;
-        right: 72%;
+        top: 52%;
+        right: 68%;
     }
 
     .amount{
-        top:35%;
+        top:4%;
         left: 75%;
     }
     
@@ -563,24 +565,6 @@ figure img{
       display: grid;
       grid-template-columns: 1fr;
     }
-
-    /* .item-ordering{
-        padding: 6.4 0;
-        padding-left: 3.4rem;
-        border-radius:2.4rem ;
-        position: absolute;
-        bottom: -2rem;
-    }
-    
-    .news-letter{
-        background-color: #f2f2f2; 
-        padding-left: 3.4rem;
-        border-radius:2.4rem;
-        padding:4rem 4.4rem;
-        position: absolute;
-        bottom: -2rem;
-        left: 64rem;
-    } */
 
     .order-item{
         padding: 0;
