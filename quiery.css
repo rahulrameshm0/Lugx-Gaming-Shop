@@ -473,7 +473,7 @@ figure img{
     /* 504/16 = 34  bellow 544px (Phone) */
 }
 
-@media(max-width:24em){
+@media(max-width:23em){
     .section-1{
         padding: 0;
         width: 100%;
